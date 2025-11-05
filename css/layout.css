@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*, *::after, *::before{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+
+/*  MAIN COMPONENTS   */
+
+header{
+    background-color: #704D38;
+    height: 111px;
+	width: 100%;
+	position: sticky;
+	z-index:1;
+	top: 0px;
+}
+.mainimg{
+    background-image: url(../images/dog-and-cat.png);
+    height: 250px;
+    margin-top: 140px;
+	margin-top: 30px;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+    background-clip: content-box;
+    margin-right: 0px;
+} /*first image at the page*/
+main{
+	padding-left: 10%;
+    padding-right: 10%;
+}
+main img{
+	width: 100%;
+}
+body{
+	background-color: #F0E9E5;
+}
+.logo{
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    float: left;
+}
+footer{
+    margin-top: 100px;
+    background-color: #704D38;
+    height: 74px;
+}
+footer a{
+    margin-top: 15px;
+    margin-left: 10%;
+	margin-right: 10%;
+}
+
+iframe{
+	width: 100%;
+}
+
+hr{
+	border: hsla(22,33%,33%,1.00) solid 3px;
+	margin-bottom: 50px;
+	border-radius: 10px;
+}
+
+/*   DROP DOWN MENU NAVIGATION*/
+nav a{
+    color: #371B37;
+    font-family: "Rubik", serif;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 3px;
+    background-color: #C7A7BB;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+	
+}
+nav a:hover{
+	color: #C7A7BB;
+	background-color: #371B37;
+}
+.desktop{
+    float: right;
+    margin-right: 30px;
+    margin-top: 45px;
+}
+.mobile{
+	float: right;
+    margin-top: 20px;
+    margin-right: 25px;
+	position: relative;
+}
+.mobile img{
+	cursor: pointer;
+}
+.drop{
+    background-color: #704D38;
+    display: none;
+    position: absolute;
+    min-width: 222px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-left: -116px;
+    margin-top: -5px;
+	padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+.drop .link{
+    margin: 12px 16px;
+    display: block;
+}
+
+.dropd{
+    background-color: hsla(22,32%,38%,1.00);
+	display: none;
+    position: absolute;
+    min-width: 186px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-left: 24%;
+    margin-top: 19px;
+    padding-top: 8px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+.linkdrop{
+	margin-top: 9px;
+    margin-right: 4px;
+    margin-left: 4px;
+    margin-bottom: 4px;
+    display: block;
+	font-size: 22px;
+}
+
+.dropservices{
+    margin-left: -21px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+
+/*   TEXT  */
+h1{
+    font-family: "Crimson Pro", serif;
+    margin-top: 38px;
+    margin-right: 0px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    float: left;
+	color: #C7A7BB;
+}
+h2{
+	font-family: "Crimson Pro", serif;
+	font-weight: bold;
+	color: #9460A8;
+	font-size: 42px;
+	text-align: center;
+	margin-top: 90px;
+	margin-bottom: 10px;
+}
+h3{
+	font-family: "Crimson Pro", serif;
+	font-weight: bold;
+	color: #371B37;
+	font-size: 30px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.light{
+	opacity: 0;
+	padding-top: 15%;
+    padding-bottom: 15%;
+}
+.light:hover{
+    opacity: 1;
+    text-align: center;
+    color: #F0E9E5;
+    background-color: #371B37;
+}
+p{
+	font-family: "Rubik", serif;
+	color: #371B37;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.link{
+    color: #371B37;
+    font-family: "Rubik", serif;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    font-size: 28px;
+    border-radius: 3px;
+    background-color: #C7A7BB;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+}
+.link:hover{
+	color: #C7A7BB;
+	background-color: #371B37;
+}
+.linksmall{
+	color: #371B37;
+    font-family: "Rubik", serif;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 3px;
+    background-color: #C7A7BB;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+}
+.link:hover{
+	color: #C7A7BB;
+	background-color: #371B37;
+}
+.linkdark{    
+	color: #C7A7BB;
+	background-color: #371B37;
+    font-family: "Rubik", serif;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    font-size: 28px;
+    border-radius: 3px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+}
+.linkdark:hover{
+	color: #371B37;
+    background-color: #C7A7BB;
+}
+
+
+/*   DIVS  */
+.center{
+	margin: auto;
+	margin-top: 40px;
+	text-align: center;
+	margin-bottom: 80px;
+}
+.row{
+	display: flex;
+	margin: auto;
+}
+.col1img{
+    width: 45%;
+    height: 230px;
+    margin-top: 20px;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+    background-clip: content-box;
+    background-image: url("../images/cat-grooming.png");
+    margin-right: 5%;
+    border-radius: 3px;
+	opacity: 0.7;
+}
+.col1img:hover{
+	opacity: 1;
+	background-color: #371B37;
+	background-image: none;
+}
+.col2img{
+    width: 45%;
+    height: 230px;
+    margin-top: 20px;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+    background-clip: content-box;
+    background-image: url(../images/dog-spa.png);
+    margin-left: 5%;
+	border-radius: 3px;
+	opacity: 0.7;
+}
+.col2img:hover{
+	opacity: 1;
+	background-color: #371B37;
+	background-image: none;
+}
+.col2{
+    width: 45%;
+    margin-right: 5%;
+	margin-top: 20px;
+}
+.col2v2{
+    width: 45%;
+    margin-left: 5%;
+	margin-top: 20px;
+}
+.col3{
+	width: 31.33%;
+	margin-right: 1%;
+	margin-left: 1%;
+}
+
+/*   REVIEW PROFILES  */
+.profile{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+	margin-top: 50px;
+}
+.profile h3{
+    margin-left: 10px;	
+}
+.profile img{
+    border-radius: 50%;
+	width: 50px;
+}
+
+
+
+/*   FORM   */
+
+fieldset{
+	border: none;
+	margin-top: 30px;
+}
+
+legend{
+	margin-bottom: 10px;
+}
+
+#dogg, #dogs, #dogh, #catg, #cats, #dog, #cat{
+	font-family: "Rubik", serif;
+	font-size: 18px;
+	color: #9460A8;
+	border: #9460A8 5px solid;
+	border-radius: 5px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	margin-top: 10px;
+	margin-right: 10px;
+	background: none;
+}
+
+#dogg:focus, #dogs:focus, #dogh:focus, #catg:focus, #cats:focus, #dog:focus, #cat:focus{
+	background: hsla(323,22%,72%,1.00);
+}
+
+textarea{
+    border: none;
+    font-family: "Rubik", serif;
+	color: hsla(323,22%,72%,1.00);
+}
+
+#submit{
+	color: #C7A7BB;
+	background-color: #371B37;
+    font-family: "Rubik", serif;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    font-size: 28px;
+    border-radius: 3px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+	margin: auto;
+}
+
+#submit:hover{
+	color: #371B37;
+    background-color: #C7A7BB;
+}
+
+#count, #doghlenght, #avalibility, #name, #telephone, #email, #questions{
+	background: none;
+	border: #9460A8 solid 5px;
+	height: 30px;
+	border-radius: 5px;
+}
+
+#questions{
+	height: 60px;
+}
+
+
+/*   MEDIA*/
+
+@media (min-width:960px){
+	.mobile{
+		display: none;
+	}
+} /*DESKTOP VIEW*/
+
+@media (max-width:960px){
+	.desktop{
+		display: none;
+	}
+	
+	.row{
+		display: block;
+		margin: auto;
+	}
+	
+	.col1img{
+		width: 100%;
+		margin: 0;
+	}
+	
+	.col2{
+		width: 100%;
+		margin: 0;
+	}
+	
+	.col2img{
+		width: 100%;
+		margin: 0;
+	}
+	
+	.col2v2{
+		width: 100%;
+		margin: 0;
+	}
+	
+	footer a{
+    	margin-left: 5%;
+		margin-right: 5%;
+	}
+}  /*MOBILE VIEW*/
