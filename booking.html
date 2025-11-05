@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale-1.0">
+<meta http-equiv="X-UA-Compatible" content="IE-edge">
+<title>Booking</title>
+	<link href="css/layout.css" rel="stylesheet" type="text/css">
+	<link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
+</head>
+
+	
+<body>
+	<header>
+		<a href="index.html"><img class="logo" src="images/logo-01.svg" alt="Logo of Furry Friends" width="100px" /></a>
+		<h1>Furry Friends</h1>
+		<nav class="desktop">
+			<a href="about.html">About Us</a>
+			<a href="booking.html">Booking</a>
+			<a href="services.html">Services</a>
+			<a onclick="myFunction2()" class="dropservices">˅</a>
+			<div class="dropd" id="drop1">
+				<a class="link" href="dog-grooming.html">Dog Grooming</a>
+				<a class="link" href="dog-spa.html">Dog Spa</a>
+				<a class="link" href="dog-hotel.html">Dog Hotel</a>
+				<a class="link" href="cat-grooming.html">Cat Grooming</a>
+				<a class="link" href="cat-spa.html">Cat Spa</a>
+			</div>
+			<a href="reviews.html">Reviews</a>
+		</nav>
+
+		<nav class="mobile">
+			<img src="images/hamburger.svg" width="80px" onclick="myFunction()" alt="Hamburger Menu" />
+			<div class="drop" id="drop2">
+				<a class="link" href="dog-grooming.html">Dog Grooming</a>
+				<a class="link" href="dog-spa.html">Dog Spa</a>
+				<a class="link" href="dog-hotel.html">Dog Hotel</a>
+				<a class="link" href="cat-grooming.html">Cat Grooming</a>
+				<a class="link" href="cat-spa.html">Cat Spa</a>
+			</div>
+		</nav>
+	</header>
+	
+	<main>
+		<h2>Booking a Service</h2>
+		<div class="row">
+		</div>
+		
+		<form action="submitted.html">
+			<fieldset>
+				<legend><h3>What pet are you booking for?</h3></legend>
+					<input id="dog" name="dog" type="button" value="Dog">
+					<input id="cat" name="cat" type="button" value="Cat">
+			</fieldset>
+			
+			<fieldset>
+				<legend><h3>How many pets you want to book for?</h3></legend>
+					<input id="count" name="count" type="number">
+			</fieldset>
+			
+			<fieldset>
+				<legend><h3>What service are you booking for?</h3></legend>
+					<input id="dogg" name="Dog-Grooming" type="button" value="Dog Grooming">
+					<input id="dogs" name="Dog-Spa" type="button" value="Dog Spa">
+					<input id="dogh" name="Dog-Hotel" type="button" value="Dog Hotel">
+					<input id="catg" name="Cat-Grooming" type="button" value="Cat Grooming">
+					<input id="cats" name="Cat-Spa" type="button" value="Cat Spa">
+			</fieldset>
+			
+			<fieldset>
+				<legend><h3>If you are booking a Dog Hotel Service. How many days do you want you dog/s to stay?</h3></legend>
+					<input type="number" id="doghlenght" name="doghlenght">
+			</fieldset>
+			
+			<fieldset>
+				<legend><h3>When do you wanna book from?</h3></legend>
+					<input type="datetime-local" id="avalibility" name="avalibility">
+			</fieldset>
+			
+			<fieldset>
+				<legend><h3>Your Name</h3></legend>
+					<input type="text" id="name" name="name">
+			</fieldset>
+			
+			<fieldset>
+				<legend><h3>Your Email</h3></legend>
+					<input id="email" type="email">
+			</fieldset>
+			
+			<fieldset>
+				<legend><h3>Your Phone Number</h3></legend>
+					<input id="telephone" type="tel">
+			</fieldset>
+			
+			<fieldset>
+				<legend><h3>Do you have any additional information for our staff?</h3></legend>
+					<textarea id="questions" name="questions" rows="4" cols="50">Type Here</textarea>
+			</fieldset>
+			
+			<br>
+			<input id="submit" type="submit" value="Make a booking">
+		</form>
+		
+	</main>
+	
+	<footer>
+		<div class="row">
+	    <a href="https://www.facebook.com/"><img src="images/icons_facebook.svg" width="50px" alt="facebook"/></a>
+		<a href="https://www.instagram.com/"><img src="images/icons_instagram.svg" width="50px" alt="instagram"/></a>
+		<a href="https://www.tiktok.com"><img src="images/icons_tiktok.svg" width="50px" alt="tiktok"/></a>
+		<a href="https://x.com"><img src="images/icons_twitter.svg" width="50px" alt="twitter"/></a>
+		</div>
+	</footer>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap-4.4.1.js"></script>
+<script src="js/myscripts.js"></script>
+</body>
+</html>
+
